@@ -1,5 +1,5 @@
-#if !defined(DYNAMIC_LIST)
-#define DYNAMIC_LIST
+#if !defined(DYNAMIC_ARRAY)
+#define DYNAMIC_ARRAY
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -57,4 +57,4 @@ void add_vector(Vector *vector, Object object)
     vector->data[vector->size - 1] = object;
 }
 
-#endif // DYNAMIC_LIST
+#endif // DYNAMIC_ARRAY
